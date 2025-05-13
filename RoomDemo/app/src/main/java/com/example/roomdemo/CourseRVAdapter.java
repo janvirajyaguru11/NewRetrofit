@@ -14,7 +14,6 @@ public class CourseRVAdapter extends ListAdapter<CourseModal, CourseRVAdapter.Vi
 
     private OnItemClickListener listener;
 
-    // creating a constructor class for our adapter class.
     CourseRVAdapter() {
         super(DIFF_CALLBACK);
     }
